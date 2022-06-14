@@ -12,8 +12,7 @@ switch (incoming_command)
 		if (edit)
 		{
 			AddEditNote();
-			SaveUndoChanges();
-			
+			SaveUndoChanges();			
 		}
 		else	
 		{
